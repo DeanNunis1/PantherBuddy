@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD32ABA28060A3900AFA936 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32AB928060A3900AFA936 /* Tests_iOS.swift */; };
+		DDD32ABC28060A3900AFA936 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32ABB28060A3900AFA936 /* Tests_iOSLaunchTests.swift */; };
+		DDD32AC628060A3900AFA936 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32AC528060A3900AFA936 /* Tests_macOS.swift */; };
+		DDD32AC828060A3900AFA936 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32AC728060A3900AFA936 /* Tests_macOSLaunchTests.swift */; };
+		DDD32AC928060A3900AFA936 /* TabViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32AA128060A3800AFA936 /* TabViewAppApp.swift */; };
+		DDD32ACA28060A3900AFA936 /* TabViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32AA128060A3800AFA936 /* TabViewAppApp.swift */; };
+		DDD32ACB28060A3900AFA936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32AA228060A3800AFA936 /* ContentView.swift */; };
+		DDD32ACC28060A3900AFA936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD32AA228060A3800AFA936 /* ContentView.swift */; };
+		DDD32ACD28060A3900AFA936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD32AA328060A3800AFA936 /* Assets.xcassets */; };
+		DDD32ACE28060A3900AFA936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD32AA328060A3800AFA936 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD32AB628060A3900AFA936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD32A9C28060A3800AFA936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD32AA728060A3800AFA936;
+			remoteInfo = "TabViewApp (iOS)";
+		};
+		DDD32AC228060A3900AFA936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD32A9C28060A3800AFA936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD32AAD28060A3800AFA936;
+			remoteInfo = "TabViewApp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDD32AA128060A3800AFA936 /* TabViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAppApp.swift; sourceTree = "<group>"; };
+		DDD32AA228060A3800AFA936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDD32AA328060A3800AFA936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD32AA828060A3800AFA936 /* TabViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD32AAE28060A3800AFA936 /* TabViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD32AB028060A3800AFA936 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DDD32AB528060A3900AFA936 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD32AB928060A3900AFA936 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DDD32ABB28060A3900AFA936 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		DDD32AC128060A3900AFA936 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD32AC528060A3900AFA936 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DDD32AC728060A3900AFA936 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD32AA528060A3800AFA936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32AAB28060A3800AFA936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32AB228060A3900AFA936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32ABE28060A3900AFA936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD32A9B28060A3800AFA936 = {
+			isa = PBXGroup;
+			children = (
+				DDD32AA028060A3800AFA936 /* Shared */,
+				DDD32AAF28060A3800AFA936 /* macOS */,
+				DDD32AB828060A3900AFA936 /* Tests iOS */,
+				DDD32AC428060A3900AFA936 /* Tests macOS */,
+				DDD32AA928060A3800AFA936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD32AA028060A3800AFA936 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DDD32AA128060A3800AFA936 /* TabViewAppApp.swift */,
+				DDD32AA228060A3800AFA936 /* ContentView.swift */,
+				DDD32AA328060A3800AFA936 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DDD32AA928060A3800AFA936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD32AA828060A3800AFA936 /* TabViewApp.app */,
+				DDD32AAE28060A3800AFA936 /* TabViewApp.app */,
+				DDD32AB528060A3900AFA936 /* Tests iOS.xctest */,
+				DDD32AC128060A3900AFA936 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD32AAF28060A3800AFA936 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDD32AB028060A3800AFA936 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DDD32AB828060A3900AFA936 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDD32AB928060A3900AFA936 /* Tests_iOS.swift */,
+				DDD32ABB28060A3900AFA936 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		DDD32AC428060A3900AFA936 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDD32AC528060A3900AFA936 /* Tests_macOS.swift */,
+				DDD32AC728060A3900AFA936 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD32AA728060A3800AFA936 /* TabViewApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD32AD128060A3900AFA936 /* Build configuration list for PBXNativeTarget "TabViewApp (iOS)" */;
+			buildPhases = (
+				DDD32AA428060A3800AFA936 /* Sources */,
+				DDD32AA528060A3800AFA936 /* Frameworks */,
+				DDD32AA628060A3800AFA936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TabViewApp (iOS)";
+			productName = "TabViewApp (iOS)";
+			productReference = DDD32AA828060A3800AFA936 /* TabViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD32AAD28060A3800AFA936 /* TabViewApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD32AD428060A3900AFA936 /* Build configuration list for PBXNativeTarget "TabViewApp (macOS)" */;
+			buildPhases = (
+				DDD32AAA28060A3800AFA936 /* Sources */,
+				DDD32AAB28060A3800AFA936 /* Frameworks */,
+				DDD32AAC28060A3800AFA936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TabViewApp (macOS)";
+			productName = "TabViewApp (macOS)";
+			productReference = DDD32AAE28060A3800AFA936 /* TabViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD32AB428060A3900AFA936 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD32AD728060A3900AFA936 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				DDD32AB128060A3900AFA936 /* Sources */,
+				DDD32AB228060A3900AFA936 /* Frameworks */,
+				DDD32AB328060A3900AFA936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD32AB728060A3900AFA936 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = DDD32AB528060A3900AFA936 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DDD32AC028060A3900AFA936 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD32ADA28060A3900AFA936 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				DDD32ABD28060A3900AFA936 /* Sources */,
+				DDD32ABE28060A3900AFA936 /* Frameworks */,
+				DDD32ABF28060A3900AFA936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD32AC328060A3900AFA936 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = DDD32AC128060A3900AFA936 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD32A9C28060A3800AFA936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DDD32AA728060A3800AFA936 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DDD32AAD28060A3800AFA936 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DDD32AB428060A3900AFA936 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DDD32AA728060A3800AFA936;
+					};
+					DDD32AC028060A3900AFA936 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DDD32AAD28060A3800AFA936;
+					};
+				};
+			};
+			buildConfigurationList = DDD32A9F28060A3800AFA936 /* Build configuration list for PBXProject "TabViewApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD32A9B28060A3800AFA936;
+			productRefGroup = DDD32AA928060A3800AFA936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD32AA728060A3800AFA936 /* TabViewApp (iOS) */,
+				DDD32AAD28060A3800AFA936 /* TabViewApp (macOS) */,
+				DDD32AB428060A3900AFA936 /* Tests iOS */,
+				DDD32AC028060A3900AFA936 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD32AA628060A3800AFA936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD32ACD28060A3900AFA936 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32AAC28060A3800AFA936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD32ACE28060A3900AFA936 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32AB328060A3900AFA936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32ABF28060A3900AFA936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD32AA428060A3800AFA936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD32ACB28060A3900AFA936 /* ContentView.swift in Sources */,
+				DDD32AC928060A3900AFA936 /* TabViewAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32AAA28060A3800AFA936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD32ACC28060A3900AFA936 /* ContentView.swift in Sources */,
+				DDD32ACA28060A3900AFA936 /* TabViewAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32AB128060A3900AFA936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD32ABC28060A3900AFA936 /* Tests_iOSLaunchTests.swift in Sources */,
+				DDD32ABA28060A3900AFA936 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD32ABD28060A3900AFA936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD32AC828060A3900AFA936 /* Tests_macOSLaunchTests.swift in Sources */,
+				DDD32AC628060A3900AFA936 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD32AB728060A3900AFA936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD32AA728060A3800AFA936 /* TabViewApp (iOS) */;
+			targetProxy = DDD32AB628060A3900AFA936 /* PBXContainerItemProxy */;
+		};
+		DDD32AC328060A3900AFA936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD32AAD28060A3800AFA936 /* TabViewApp (macOS) */;
+			targetProxy = DDD32AC228060A3900AFA936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDD32ACF28060A3900AFA936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDD32AD028060A3900AFA936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DDD32AD228060A3900AFA936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chapman.TabViewApp;
+				PRODUCT_NAME = TabViewApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD32AD328060A3900AFA936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chapman.TabViewApp;
+				PRODUCT_NAME = TabViewApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD32AD528060A3900AFA936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chapman.TabViewApp;
+				PRODUCT_NAME = TabViewApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDD32AD628060A3900AFA936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chapman.TabViewApp;
+				PRODUCT_NAME = TabViewApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DDD32AD828060A3900AFA936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TabViewApp (iOS)";
+			};
+			name = Debug;
+		};
+		DDD32AD928060A3900AFA936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TabViewApp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD32ADB28060A3900AFA936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TabViewApp (macOS)";
+			};
+			name = Debug;
+		};
+		DDD32ADC28060A3900AFA936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9WHMKFAM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TabViewApp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD32A9F28060A3800AFA936 /* Build configuration list for PBXProject "TabViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD32ACF28060A3900AFA936 /* Debug */,
+				DDD32AD028060A3900AFA936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD32AD128060A3900AFA936 /* Build configuration list for PBXNativeTarget "TabViewApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD32AD228060A3900AFA936 /* Debug */,
+				DDD32AD328060A3900AFA936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD32AD428060A3900AFA936 /* Build configuration list for PBXNativeTarget "TabViewApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD32AD528060A3900AFA936 /* Debug */,
+				DDD32AD628060A3900AFA936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD32AD728060A3900AFA936 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD32AD828060A3900AFA936 /* Debug */,
+				DDD32AD928060A3900AFA936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD32ADA28060A3900AFA936 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD32ADB28060A3900AFA936 /* Debug */,
+				DDD32ADC28060A3900AFA936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD32A9C28060A3800AFA936 /* Project object */;
+}
