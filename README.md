@@ -22,7 +22,7 @@ To install and run this project locally, you'll need to have [Xcode](https://dev
 
 ## Contribution
 
-We welcome contributions from the community. If you'd like to contribute, please fork this repository, make your changes, and open a pull request.
+All contributions are welcome! If you'd like to contribute, please fork this repository, make your changes, and open a pull request.
 
 ## License
 
